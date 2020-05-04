@@ -20,6 +20,11 @@ export const Presentation = styled.div`
   flex-direction: column;
   justify-content: center;
   padding: 0 3rem;
+  margin-left: 10%;
+
+  @media (max-width: 950px) {
+    margin-left: 0;
+  }
 `;
 
 export const HaloImage = styled.div`
